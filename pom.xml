@@ -11,7 +11,7 @@
 
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <version>mvn release:perform</version>
+  <version>4.0.0-SNAPSHOT</version>
 
   <name>petclinic</name>
 
