@@ -11,17 +11,18 @@
 
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <version>4.0.4-SNAPSHOT</version>
+  <version>4.0.0-SNAPSHOT</version>
 
   <name>petclinic</name>
 
   <!-- Added Distribution management -->
   <distributionManagement>
     <repository>
-        <id>github-releases</id>
-        <url>https://maven.pkg.github.com/MateuszOrskiGrid/spring-petclinic</url>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/MateuszOrskiGrid/spring-petclinic</url>
     </repository>
-</distributionManagement>
+  </distributionManagement>
 
   <properties>
 
@@ -31,7 +32,7 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <!-- Important for reproducible builds. Update using e.g. ./mvnw versions:set
         -DnewVersion=... -->
-    <project.build.outputTimestamp>2025-01-15T11:21:38Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2025-01-15T11:34:46Z</project.build.outputTimestamp>
 
     <!-- Web dependencies -->
     <webjars-locator.version>1.0.1</webjars-locator.version>
