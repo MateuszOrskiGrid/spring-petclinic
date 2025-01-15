@@ -15,6 +15,14 @@
 
   <name>petclinic</name>
 
+  <!-- Added Distribution management -->
+  <distributionManagement>
+    <repository>
+        <id>github-releases</id>
+        <url>https://maven.pkg.github.com/MateuszOrskiGrid/spring-petclinic</url>
+    </repository>
+</distributionManagement>
+
   <properties>
 
     <!-- Generic properties -->
